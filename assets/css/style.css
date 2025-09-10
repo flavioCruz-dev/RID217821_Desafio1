@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    font-family: inter;
+}
+
+#secaoSuperior {
+    max-width: 1400px;
+    height: 475px;
+    background-color: #303030;
+    color: white;
+}
+
+#tituloSuperior {
+    padding: 206px 0px 0px 62px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#textoSuperior {
+    padding: 32px 0px 0px 62px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#secaoInformativa {
+    max-width: 1400px;
+    height: 229px;
+    background-color: #F9F9F9;
+    color: black;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.valorInformativo {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 54px 0px 0px 80px;
+}
+
+.textoInformativo {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 0px 0px 80px;
+}
+
+#secaoApresentacao {
+    max-width: 1400px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#conteudoApresentacao{
+    margin: 285px 0px 0px 77px
+}
+
+#tituloApresentacao {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#textoApresentacao {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+#ambiente {
+    width: 510px;
+    height: 605px;
+    margin: 77px 54px 77px 64px;
+}
+
+#secaoCadastro {
+    max-width: 1400px;
+    height: 638px;
+    background-color: #303030;
+    text-align: center;
+}
+
+#tituloCadastro {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 48px 0px 48px 0px;
+}
+
+input {
+    width: 508px;
+    height: 72px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: raleway;
+    padding-left: 25px;
+    color: #0000004D;
+}
+
+button {
+    width: 286px;
+    height: 74px;
+    margin-top: 80px;
+    background-color: #C07212;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 10px;
+    font-family: raleway;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f1a03bb6;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #bd741a52;
+    transition-duration: 0.5s;
+}
